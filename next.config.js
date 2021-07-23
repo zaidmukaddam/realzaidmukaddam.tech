@@ -39,6 +39,11 @@ const config = {
         destination: "/utils/percentage-calculator",
         permanent: true,
       },
+      {
+        source: "/blog",
+        destination: "/blog",
+        permanent: true,
+      }
     ];
   },
   async headers() {
