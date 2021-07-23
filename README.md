@@ -4,7 +4,7 @@ my portfolio
 
 ## Performance
 
-![performance](./public/)
+![performance](./public/performance.png)
 
 ## What I learned
 
