@@ -13,7 +13,7 @@ const Index = () => {
   const { dispatch } = useEmitEvent("focusOnContact", true);
 
   function calculateAge() {
-    return ((Date.now() - new Date("09/29/2002").getTime()) / (60 * 60 * 24 * 365.25 * 1000))
+    return ((Date.now() - new Date("08/29/2002").getTime()) / (60 * 60 * 24 * 365.25 * 1000))
       .toString()
       .split(".")[0];
   }
