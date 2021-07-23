@@ -1,0 +1,45 @@
+---
+title: Python v3.10 has switch case 😱
+createdAt: April 9, 2021 17:20:00
+intro: Is it True? Is the Syntax same as Switch statement from C language?!
+keywords: python, c-language, switch-case, match-statement
+---
+
+Yes, it is True! The long-awaited switch statement is finally added in Python v3.10! It's syntax is tad bit similar to the switch statement from C language. But it is named as 'match' statement.
+
+The generic syntax of pattern matching is:
+```python
+match subject:
+    case <pattern_1>:
+        <action_1>
+    case <pattern_2>:
+        <action_2>
+    case <pattern_3>:
+        <action_3>
+    case _:
+        <action_wildcard>
+```
+
+A match statement takes an expression and compares its value to successive patterns given as one or more case blocks. Specifically, pattern matching operates by:
+
+<p>A match statement takes an expression and compares its value to successive patterns given as one or more case blocks. Specifically, pattern matching operates by:</p>
+
+<blockquote>
+<ol>
+	<li>
+	<p>using data with type and shape (the&nbsp;<code>subject</code>)</p>
+	</li>
+	<li>
+	<p>evaluating the&nbsp;<code>subject</code>&nbsp;in the&nbsp;<code>match</code>&nbsp;statement</p>
+	</li>
+	<li>
+	<p>comparing the subject with each pattern in a&nbsp;<code>case</code>&nbsp;statement from top to bottom until a match is confirmed.</p>
+	</li>
+	<li>
+	<p>executing the action associated with the pattern of the confirmed match</p>
+	</li>
+	<li>
+	<p>If an exact match is not confirmed, the last case, a wildcard&nbsp;<code>_</code>, if provided, will be used as the matching case. If an exact match is not confirmed and a wildcard case does not exist, the entire match block is a no-op</p>
+	</li>
+</ol>
+</blockquote>

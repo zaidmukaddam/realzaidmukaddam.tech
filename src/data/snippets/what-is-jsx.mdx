@@ -1,0 +1,30 @@
+---
+title: What is JSX?
+intro: JSX stands for JavaScript XML.
+createdAt: July 17, 2021
+keywords: reactjs, jsx
+---
+
+It allows us to write HTML inside JavaScript and place them in the DOM without using functions like `appendChild( )` or `createElement( )`.
+
+- Without using JSX, we would have to create an element by the following process:
+
+```javascript
+const text = React.createElement('p', {}, 'This is a text');
+const container = React.createElement('div','{}',text );
+ReactDOM.render(container,document.getElementById('app'));
+```
+
+- Using JSX, the above code can be simplified:
+
+````javascript
+const container = (
+
+ <div>
+   <p>This is a text</p>
+ </div>
+);
+ReactDOM.render(container,document.getElementById('app'));
+````
+
+As one can see in the code above, we are directly using HTML inside JavaScript\*

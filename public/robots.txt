@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://realzaidmukaddam.tech
+
+# Sitemaps
+Sitemap: https://realzaidmukaddam.tech/sitemap.xml

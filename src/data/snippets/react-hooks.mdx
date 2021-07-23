@@ -1,0 +1,28 @@
+---
+title: React hooks
+intro: A simple react hook
+createdAt: July 21, 2021
+keywords: reactjs, react hooks
+---
+
+Hooks are functions that let us “hook into” React state and lifecycle features from a `functional component.`
+React Hooks cannot be used in class components.
+
+Why were Hooks introduced in React?
+React hooks were introduced in the 16.8 version of React.
+Previously, functional components were called stateless components. Only class components were used for state management and lifecycle methods.
+
+The need to change a functional component to a class component, whenever state management or lifecycle methods were to be used, led to the development of Hooks.
+
+**Example of a hook:**
+
+`useState hook:`
+In functional components, useState hook lets us define state for a component:
+
+```javascript
+function Person(props) {
+ // We are declaring a state variable called name.
+ // setName is a function to update/change the value of name
+ let [name, setName] = useState('');
+}
+```

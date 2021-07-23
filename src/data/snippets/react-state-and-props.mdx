@@ -1,0 +1,103 @@
+---
+title: Explain React state and props
+intro: A React component can access dynamic information in two ways props and state.
+createdAt: July 18, 2021
+keywords: reactjs, react props, react state
+---
+
+### React State
+
+Every component in react has a built-in state object, which contains all the property values that belong to that component.
+
+In other words, the state object controls the behaviour of a component. Any change in the property values of the state object leads to re-rendering of the component.
+
+Note- State object is not available in functional components but, we can use React Hooks to add state to a functional component.
+
+How to declare a state object?
+
+```javascript
+Example:
+class Car extends React.Component{
+ constructor(props){
+   super(props);
+   this.state = {
+     brand: "BMW",
+     color: "black"
+   }
+ }
+}
+```
+
+How to use and update the state object?
+
+```javascript
+class Car extends React.Component {
+ constructor(props) {
+   super(props);
+   this.state = {
+     brand: "BMW",
+     color: "Black"
+   };
+ }
+
+ changeColor() {
+   this.setState(prevState => {
+     return { color: "Red" };
+   });
+ }
+
+ render() {
+   return (
+     <div>
+       <button onClick={() => this.changeColor()}>Change Color</button>
+       <p>{this.state.color}</p>
+     </div>
+   );
+ }
+}
+
+```
+
+As one can see in the code above, we can use the state by calling this.state.propertyName and we can change the state object property using setState method.
+
+### React Props
+
+Every react component, accepts a single object argument called props (which stands for “properties”).
+
+These props can be passed to a component using HTML attributes.
+
+Using props, we can pass data from one component to another.
+
+- While rendering a component, we can pass the props as a HTML attribute:
+
+```javascript
+<Car brand="Mercedes"/>
+```
+
+The component receives the props:
+
+In Class component:
+
+```javascript
+class Car extends React.Component {
+ constructor(props) {
+   super(props);
+   this.state = {
+     brand: this.props.brand,
+     color: "Black"
+   };
+ }
+}
+```
+
+In Functional component:
+
+```javascript
+function Car(props) {
+  render() {
+      return <h1>Name is {props.name}!</h1>;
+   }
+}
+```
+
+**Note- Props are read-only. They cannot be manipulated or changed inside a component**
