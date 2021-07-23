@@ -41,7 +41,7 @@ const config = {
       },
       {
         source: "/blog",
-        destination: "/blog/hello-world",
+        destination: "/blog/",
         permanent: true,
       }
     ];
