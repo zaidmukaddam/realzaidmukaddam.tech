@@ -95,7 +95,7 @@ const timeline: TimelineItem[] = [
   {
     date: "June 2021",
     title: "HackerRank Ultimate",
-    text: "Nailed almost all Certifiactions pon HackerRank",
+    text: "Nailed almost all Certifiactions on HackerRank",
     url: "https://www.hackerrank.com/zaidaltafmukadd1",
     full_date: "June 24, 2021",
   },
