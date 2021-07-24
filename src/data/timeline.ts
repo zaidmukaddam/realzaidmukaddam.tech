@@ -86,7 +86,7 @@ const timeline: TimelineItem[] = [
     full_date: "July 6, 2021",
   },
   {
-    date: "March 2021",
+    date: "July 2021",
     title: "Wooble App",
     text: "Created a beautiful Wallpaper App using Flutter and  Pexels API",
     url: "https://github.com/zaidmukaddam/Wooble",
