@@ -2,20 +2,25 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://zaidmukaddam.github.io",
   "scripts": {
     "dev": "concurrently \"next dev\" \"npm run build:typed-css\"",
     "dev1": "next dev",
     "build": "next build && next-sitemap",
     "start": "next start",
+    "export": "next export",
     "format": "prettier --write \"**/*.{js,jsx,json,ts,tsx,md,mdx,css,html,yml,yaml,scss,sass}\" --ignore-path .gitignore",
     "lint": "eslint ./src --ext .tsx,.ts,.jsx,.js",
-    "build:typed-css": "tsm src -w"
+    "build:typed-css": "tsm src -w",
+    "predeploy": "npm run build && npm run export",
+    "deploy": "gh-pages -d out"
   },
   "dependencies": {
     "@casper124578/useful": "^0.0.13",
     "date-fns": "^2.22.1",
     "esbuild": "^0.12.15",
     "express-rate-limit": "^5.3.0",
+    "gh-pages": "^3.2.3",
     "mdx-bundler": "^5.1.0",
     "next": "^11.0.1",
     "next-pwa": "^5.2.23",
