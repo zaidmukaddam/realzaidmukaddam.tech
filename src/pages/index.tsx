@@ -38,7 +38,7 @@ const Index = () => {
         <div className={mainStyles.btnContainer}>
           <SocialIcon
             rel="noopener noreferrer"
-            url={process.env.NEXT_PUBLIC_INSTAGRAM_PROFILE_PROFILE_URL}
+            url={process.env.NEXT_PUBLIC_INSTAGRAM_PROFILE_URL}
             target="_blank"
             onClick={dispatch}
             className="btn btn__icon"

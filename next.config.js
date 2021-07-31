@@ -6,7 +6,7 @@ const config = {
     return [
       {
         source: "/instagram",
-        destination: process.env.NEXT_PUBLIC_INSTAGRAM_PROFILE_PROFILE_URL || "https://instagram.com",
+        destination: process.env.NEXT_PUBLIC_INSTAGRAM_PROFILE_URL || "https://instagram.com",
         permanent: true,
       },
       {

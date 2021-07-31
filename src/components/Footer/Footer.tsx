@@ -16,7 +16,7 @@ export const Footer = () => {
         <div className={styles.footerLinks}>
           <SocialIcon
             rel="noopener noreferrer"
-            url={process.env.NEXT_PUBLIC_INSTAGRAM_PROFILE_PROFILE_URL}
+            url={process.env.NEXT_PUBLIC_INSTAGRAM_PROFILE_URL}
             target="_blank"
             className="btn btn__icon"
           />
