@@ -4,7 +4,7 @@ import TimelineSection from "@sections/TimelineSection";
 import ProjectSection from "@sections/ProjectsSection";
 import ContactSection from "@sections/ContactSection";
 import SkillsSection from "@sections/SkillsSection";
-import { ContactIcon, GitHubIcon, LinkedInIcon, TwitterIcon } from "@icons/about";
+import { SocialIcon } from "react-social-icons";
 import { Seo } from "@components/Seo";
 import mainStyles from "css/main.module.scss";
 
@@ -31,42 +31,24 @@ const Index = () => {
         <p className={mainStyles.mainText}>
           Hello, I am Zaid! I am a {age} year old programmer and student. I enjoy programming a lot.
           I&apos;ve created websites, Android Apps, and hacking scripts, etc. I am a self taught
-          developer and I have been programming for ~2 years and still learning new technologies
-          every day, mostly focusing on React, TypeScript and design.
+          developer and I have been programming for nearly 1 and a half year and still learning new
+          technologies every day, mostly focusing on React, TypeScript and App Development.
         </p>
 
         <div className={mainStyles.btnContainer}>
-          <a onClick={dispatch} className="btn btn__light btn__icon" href="#contact">
-            <ContactIcon />
-            Contact
-          </a>
-          <a
+          <SocialIcon
             rel="noopener noreferrer"
+            url={process.env.NEXT_PUBLIC_INSTAGRAM_PROFILE_PROFILE_URL}
             target="_blank"
-            className="btn btn__light btn__icon"
-            href={process.env.NEXT_PUBLIC_GITHUB_PROFILE_URL}
-          >
-            <GitHubIcon />
-            GitHub
-          </a>
-          <a
-            rel="noopener noreferrer"
+            onClick={dispatch}
+            className="btn btn__icon"
+          />
+          <SocialIcon
+            url={process.env.NEXT_PUBLIC_LINKEDIN_PROFILE_URL}
             target="_blank"
-            className="btn btn__light btn__icon"
-            href={process.env.NEXT_PUBLIC_TWITTER_PROFILE_URL}
-          >
-            <TwitterIcon />
-            Twitter
-          </a>
-          <a
-            rel="noopener noreferrer"
-            target="_blank"
-            className="btn btn__light btn__icon"
-            href={process.env.NEXT_PUBLIC_LINKEDIN_PROFILE_URL}
-          >
-            <LinkedInIcon />
-            LinkedIn
-          </a>
+            className="btn btn__icon"
+          />
+          <SocialIcon url="#contact" className="btn btn__icon" />
         </div>
       </main>
 

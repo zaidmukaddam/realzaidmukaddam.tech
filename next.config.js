@@ -6,7 +6,7 @@ const config = {
     return [
       {
         source: "/twitter",
-        destination: process.env.NEXT_PUBLIC_TWITTER_PROFILE_URL || "https://twitter.com",
+        destination: process.env.NEXT_PUBLIC_INSTAGRAM_PROFILE_PROFILE_URL || "https://twitter.com",
         permanent: true,
       },
       {
