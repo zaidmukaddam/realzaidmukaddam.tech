@@ -5,8 +5,8 @@ const config = {
   async redirects() {
     return [
       {
-        source: "/twitter",
-        destination: process.env.NEXT_PUBLIC_INSTAGRAM_PROFILE_PROFILE_URL || "https://twitter.com",
+        source: "/instagram",
+        destination: process.env.NEXT_PUBLIC_INSTAGRAM_PROFILE_PROFILE_URL || "https://instagram.com",
         permanent: true,
       },
       {
