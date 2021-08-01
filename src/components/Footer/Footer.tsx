@@ -21,11 +21,13 @@ export const Footer = () => {
             className="btn btn__icon"
           />
           <SocialIcon
+            rel="noopener noreferrer"
             url={process.env.NEXT_PUBLIC_GITHUB_PROFILE_URL}
             target="_blank"
             className="btn btn__icon"
           />
           <SocialIcon
+            rel="noopener noreferrer"
             url={process.env.NEXT_PUBLIC_LINKEDIN_PROFILE_URL}
             target="_blank"
             className="btn btn__icon"
