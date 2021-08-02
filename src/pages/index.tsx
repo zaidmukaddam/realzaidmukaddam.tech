@@ -21,7 +21,7 @@ const Index = () => {
   return (
     <>
       <main className={mainStyles.main} id="about">
-        <Seo title="Zaid Mukaddam - Web Developer" />
+        <Seo title="Zaid Mukaddam - Developer" />
 
         <div className={mainStyles.mainTitle}>
           <h1>I am Zaid</h1>

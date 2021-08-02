@@ -12,9 +12,9 @@ interface Props {
 const DEFAULT_KEYWORDS = ["zaidmukaddam", "Zaid Mukaddam", "zaid mukaddam", "realzaidmukaddam"];
 
 const defaults: Props = {
-  title: "Zaid Mukaddam - Web Developer",
+  title: "Zaid Mukaddam - Developer",
   url: "https://realzaidmukaddam.tech",
-  description: "Hi I'm Zaid Mukaddam! A Frontend Web Developer.",
+  description: "Hi I'm Zaid Mukaddam! A Student & a Developer.",
   keywords: ["zaid mukaddam", "Zaid Mukaddam", "zaid mukaddam", "realzaidmukaddam"],
 };
 
