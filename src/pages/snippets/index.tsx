@@ -19,6 +19,7 @@ const BlogPage = ({ snippets }: Props) => {
         keywords={["code snippets", "code examples", "react hooks"]}
         url="https://realzaidmukaddam.tech/snippets"
       />
+      <br />
       <h1>Code snippets</h1>
 
       <div className={styles.blogItems}>

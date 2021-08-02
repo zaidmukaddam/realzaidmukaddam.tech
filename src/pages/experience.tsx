@@ -14,6 +14,7 @@ const ExperiencePage = () => {
       />
 
       <div className={styles.header}>
+        <br />
         <h1>My Experience</h1>
         <p>The list below shows my most active experiences starting from 2018.</p>
 

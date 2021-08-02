@@ -19,6 +19,7 @@ const BlogPage = ({ posts }: Props) => {
         keywords={["blog Zaid Mukaddam", "tech Zaidmukaddam blog"]}
         description="My blog - Zaid Mukaddam"
       />
+      <br />
       <h1>Blog posts</h1>
 
       <div className={styles.blogItems}>
