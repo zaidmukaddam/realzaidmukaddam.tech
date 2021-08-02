@@ -7,12 +7,19 @@
 }
 
 .mainTitle {
+  background: rgba(83, 144, 236, 0.15);
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 1px solid var(--bg);
   h1 {
-    font-size: clamp(2rem, 10vw, 5.5rem);
+    font-size: clamp(2rem, 10vw, 5rem);
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 0;
     line-height: 55pt;
+    margin-top: 1rem;
   }
 
   h2 {
@@ -21,6 +28,7 @@
     margin: 0;
     font-weight: 400;
     text-align: center;
+    margin-bottom: 0.5em;
   }
 }
 
@@ -34,15 +42,25 @@
 }
 
 .btnContainer {
-  margin: 1rem 2.3rem;
+  margin: 0 3.5rem;
+  margin-left: auto;
+  margin-right: auto;
   display: inline-flexbox;
   gap: 0.5rem;
   align-content: center;
+  justify-content: center;
   // grid-template-columns: repeat(2, 1fr);
+  transition: box-shadow 200ms, transform 200ms;
+  background: rgba( 255, 255, 255, 0.15 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
 .btnContainer a {
-  margin: 1.5em;
+  margin: 1.5rem;
   transition: filter 200ms, transform 200ms;
 }
 
@@ -53,10 +71,11 @@
   filter: brightness(150%);
 }
 
-@media (min-width: 650px) {
+@media (max-width: 650px) {
   .btnContainer {
     display: flex;
     justify-content: center;
+    margin-top: 1.9em;
   }
 
   .btnContainer .btn:nth-child(2n + 2) {
@@ -70,10 +89,10 @@
   }
   .mainTitle{
     h1{
-      text-align: left;
+      text-align: center;
     }
     h2{
-      text-align: left;
+      text-align: center;
     }
   }
 }

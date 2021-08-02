@@ -2,11 +2,11 @@ import TimelineItem from "types/Timeline";
 
 const timeline: TimelineItem[] = [
   {
-    date: "July 2021",
+    date: "August 2021",
     title: "realzaidmukaddam.tech",
     text: "Finished builing My DOPE Portfolio Website",
     url: "https://github.com/zaidmukaddam/realzaidmukaddam.tech",
-    full_date: "July 23, 2021",
+    full_date: "August 2, 2021",
   },
   {
     date: "July 2021",

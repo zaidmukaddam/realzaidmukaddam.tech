@@ -1,5 +1,5 @@
 /* eslint-disable */
 module.exports = {
-  siteUrl: "https://www.realzaidmukaddam.tech",
+  siteUrl: "https://realzaidmukaddam.tech",
   generateRobotsTxt: true, // (optional)
 };

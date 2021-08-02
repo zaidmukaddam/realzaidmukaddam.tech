@@ -25,12 +25,12 @@ const Index = () => {
 
         <div className={mainStyles.mainTitle}>
           <h1>I am Zaid</h1>
-          <h2>Frontend web developer & Ethical Hacker</h2>
+          <h2>Web and App developer &amp; Ethical Hacker</h2>
         </div>
 
         <p className={mainStyles.mainText}>
           Hello, I am Zaid! I am a {age} year old programmer and student. I enjoy programming a lot.
-          I&apos;ve created websites, Android Apps, and hacking scripts, etc. I am a self taught
+          I&apos;ve created websites, android apps, and hacking scripts, etc. I am a self taught
           developer and I have been programming for nearly 1 and a half year and still learning new
           technologies every day, mostly focusing on React, TypeScript and App Development.
         </p>

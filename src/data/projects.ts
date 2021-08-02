@@ -34,7 +34,7 @@ const projects: Project[] = [
   {
     title: "CPU Scheduler App",
     description:
-      "About React Native Application to visualize the CPU Scheduling with different Algorithms and Animations.",
+      "React Native Application to visualize the CPU Scheduling with different Algorithms and Animations.",
     buttons: [
       {
         url: `${url}/CPU-Scheduler-App-React-Native`,

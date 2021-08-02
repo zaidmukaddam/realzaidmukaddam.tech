@@ -9,8 +9,7 @@ export const Footer = () => {
           Created by{" "}
           <a href="https://github.com/zaidmukaddam/realzaidmukaddam.tech">zaidmukaddam</a> with ❤️
           <br />
-          Colors: Visual Studio Code Abyss Theme. Built with{" "}
-          <a href="https://nextjs.org">Next.js</a>
+          Colors: Royal Blue Varients Theme. Built with <a href="https://nextjs.org">Next.js</a>
         </p>
 
         <div className={styles.footerLinks}>

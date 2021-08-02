@@ -12,6 +12,12 @@
   align-items: center;
   transition: 200ms;
   background: var(--bg);
+  box-shadow: 2px 4px 32px -5px var(--secondary);
+  backdrop-filter: blur(0.65rem);
+  -webkit-backdrop-filter: blur(0.65rem);
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  border: 1px solid;
 }
 
 .navActive {
@@ -40,7 +46,7 @@
 }
 
 .navLink {
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 400;
   color: var(--light);
   position: relative;
