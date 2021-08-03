@@ -23,7 +23,13 @@ const PostPage = ({ snippet }: Props) => {
         url={`https://realzaidmukaddam.tech/snippets/${snippet.slug}`}
       />
       <Head>
-        <link rel="preload" href="/fonts/CascadiaMono.woff2" as="font" type="font/woff2" />
+        <link
+          rel="preload"
+          href="/fonts/CascadiaMono.woff2"
+          as="font"
+          type="font/woff2"
+          crossOrigin="anonymous"
+        />
 
         <meta name="authors" content="Zaid Mukaddam" />
         <meta name="created" content={snippet.createdAt} />

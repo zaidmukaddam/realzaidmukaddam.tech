@@ -52,7 +52,13 @@ const MdHtml = () => {
         url="https://realzaidmukaddam.tech/utils/md-html"
       />
       <Head>
-        <link rel="preload" href="/fonts/CascadiaMono.woff2" as="font" type="font/woff2" />
+        <link
+          rel="preload"
+          href="/fonts/CascadiaMono.woff2"
+          as="font"
+          type="font/woff2"
+          crossOrigin="anonymous"
+        />
       </Head>
 
       <div className={styles.mdHtmlHeader}>

@@ -43,7 +43,13 @@ const PercentageCalculator = () => {
         url="https://realzaidmukaddam.tech/utils/percentage-calculator"
       />
       <Head>
-        <link rel="preload" href="/fonts/CascadiaMono.woff2" as="font" type="font/woff2" />
+        <link
+          rel="preload"
+          href="/fonts/CascadiaMono.woff2"
+          as="font"
+          type="font/woff2"
+          crossOrigin="anonymous"
+        />
       </Head>
 
       <form onSubmit={onSubmit}>

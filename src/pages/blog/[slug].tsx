@@ -35,7 +35,13 @@ const PostPage = ({ post }: Props) => {
         url={`https://realzaidmukaddam.tech/blog/${post.slug}`}
       />
       <Head>
-        <link rel="preload" href="/fonts/CascadiaMono.woff2" as="font" type="font/woff2" />
+        <link
+          rel="preload"
+          href="/fonts/CascadiaMono.woff2"
+          as="font"
+          type="font/woff2"
+          crossOrigin="anonymous"
+        />
 
         {/* why not "author": https://github.com/postlight/mercury-parser/blob/HEAD/src/extractors/generic/author/constants.js#L5 */}
         <meta name="authors" content="Zaid Mukaddam" />
