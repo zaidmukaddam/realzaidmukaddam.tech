@@ -36,6 +36,7 @@ const Index = () => {
         </p>
 
         <div className={mainStyles.btnContainer}>
+          <SocialIcon url="#contact" className="btn btn__icon" />
           <SocialIcon
             rel="noopener noreferrer"
             url={process.env.NEXT_PUBLIC_INSTAGRAM_PROFILE_URL}
@@ -49,7 +50,6 @@ const Index = () => {
             target="_blank"
             className="btn btn__icon"
           />
-          <SocialIcon url="#contact" className="btn btn__icon" />
         </div>
       </main>
 

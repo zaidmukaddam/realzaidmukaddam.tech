@@ -40,7 +40,7 @@ export const ExperienceItem = ({ item }: Props) => {
         className={styles.experienceTitle}
       >
         <h1>{item.title}</h1>
-        <p>{item.year}</p>
+        <p className="btn">{item.year}</p>
       </a>
       <div className={styles.experienceDesc}>{item.description}</div>
       <footer className={styles.experienceStackContainer}>

@@ -19,7 +19,7 @@
     text-transform: uppercase;
     margin-bottom: 0;
     line-height: 55pt;
-    margin-top: 1rem;
+    margin-top: 1.2rem;
   }
 
   h2 {
@@ -75,7 +75,9 @@
   .btnContainer {
     display: flex;
     justify-content: center;
-    margin-top: 1.9em;
+    margin-top: 0.5em;
+    margin-left: inherit;
+    margin-right: inherit;
   }
 
   .btnContainer .btn:nth-child(2n + 2) {
@@ -85,7 +87,14 @@
 
 @media (max-width: 768px){
   .mainText{
-    text-align: left !important;
+    text-align: center !important;
+    background: var(--bg);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.50 );
+    backdrop-filter: blur( 0 );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid var(--secondary);
+    padding: 1em;
   }
   .mainTitle{
     h1{

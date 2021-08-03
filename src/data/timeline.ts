@@ -3,7 +3,7 @@ import TimelineItem from "types/Timeline";
 const timeline: TimelineItem[] = [
   {
     date: "August 2021",
-    title: "realzaidmukaddam.tech",
+    title: "Portfolio",
     text: "Finished builing My DOPE Portfolio Website",
     url: "https://github.com/zaidmukaddam/realzaidmukaddam.tech",
     full_date: "August 2, 2021",
@@ -45,7 +45,7 @@ const timeline: TimelineItem[] = [
   },
   {
     date: "July 2021",
-    title: "realzaidmukaddam.tech",
+    title: "Portfolio",
     text: "Started working on my new portfolio Website.",
     url: "https://github.com/zaidmukaddam/realzaidmukaddam.tech",
     full_date: "July 8, 2021",
@@ -149,12 +149,12 @@ const timeline: TimelineItem[] = [
   },
   {
     date: "March 2021",
-    title: "Advanced Web Development",
+    title: "Adv. Web Development",
     text: "Started Learning MERN Stack and React JS Development ",
     full_date: "March 29, 2021",
   },
   {
-    date: "End February 2021",
+    date: "February 2021",
     title: "FreeCodeCamp",
     text: "Started to learn more about data structures and algorithms on, Fun but hard!",
     url: "http://freecodecamp.com/",
