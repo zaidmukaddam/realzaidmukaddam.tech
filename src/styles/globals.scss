@@ -3,6 +3,7 @@
   --text-color: #25c1e0;
   --secondary: #206ead;
   --dark: #06365f;
+  --btn: #114d9b;
   --content-width: 90%;
 }
 
@@ -86,7 +87,7 @@ a {
   cursor: pointer;
 
   &:hover:enabled {
-    filter: brightness(150%);
+    filter: brightness(130%);
   }
 
   &:disabled {
@@ -101,10 +102,10 @@ a {
 
 .btn__lighter {
   color: var(--bg) !important;
-  background: var(--text-color);
+  background: var(--btn);
 
   &:hover {
-    filter: brightness(120%);
+    filter: brightness(110%);
   }
 }
 
