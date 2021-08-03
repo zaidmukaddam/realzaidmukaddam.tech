@@ -21,16 +21,25 @@ export const skills: SkillItem[] = [
     items: ["Node", "REST APIs", "MongoDB & MySQL", "C++", "C#", "Python & R", "Java"],
   },
   {
-    header: "Other",
+    header: "System",
     items: [
-      "Security in GCP",
-      "Networking in GCP",
       "Ethical Hacking",
       "Linux",
       "VSCode",
       "Git & Github",
       "Android Studio",
       "VirtualBox",
+      "Vim",
+    ],
+  },
+  {
+    header: "Other",
+    items: [
+      "Security in GCP",
+      "Networking in GCP",
+      "Cyber Security Analyst",
+      "Data Analyst",
+      "API Security Associate",
     ],
   },
 ];

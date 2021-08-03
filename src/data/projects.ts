@@ -64,6 +64,20 @@ const projects: Project[] = [
     ],
   },
   {
+    title: "Atmos",
+    description: "Vite-React Weather App developed using openWeather, Mapbox and IP API.",
+    buttons: [
+      {
+        url: `${url}/Atmos`,
+        name: VIEW_CODE,
+      },
+      {
+        name: OPEN_PROJECT,
+        url: "https://atmos.realzaidmukaddam.tech/",
+      },
+    ],
+  },
+  {
     title: "online-ide",
     description:
       "This is an online ide for the compilation of C , C++17, Java, and Python. Built with React, Express, and Node.",
