@@ -8,6 +8,5 @@ my portfolio
 
 ## What I learned
 
-- Better understanding of scss
-- Better understanding of next.js
+- Better understanding of Glassmorphism
 - Better understanding of SEO

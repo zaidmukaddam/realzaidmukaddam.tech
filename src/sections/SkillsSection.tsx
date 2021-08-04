@@ -1,6 +1,7 @@
 import * as React from "react";
 import styles from "css/skills.module.scss";
 import { skills } from "../data/skills";
+import "devicon";
 
 const SkillsSection = () => {
   return (
@@ -18,7 +19,7 @@ const SkillsSection = () => {
               <ul className={styles.skillsItem}>
                 {skillsItem.items.map((item) => (
                   <li key={item}>
-                    <p>{item}</p>
+                    <i className={item} />
                   </li>
                 ))}
               </ul>
