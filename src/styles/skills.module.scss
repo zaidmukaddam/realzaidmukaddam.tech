@@ -29,7 +29,7 @@
     h1 {
       font-size: clamp(1.1rem, 6vw, 1.5rem);
       font-weight: bold;
-      margin: 0;
+      margin: 0.2em;
     }
   }
 
@@ -58,11 +58,6 @@
     border: none;
   }
 
-  // p {
-  //   margin-bottom: 0.2rem;
-  //   font-size: 0.2rem;
-  // }
-
   i {
     margin: 0.65rem auto;
     background: rgba(43, 87, 136, 0);
@@ -83,6 +78,10 @@
     justify-content: center;
     align-items: center !important;
     padding: auto;
+
+    h1{
+      padding-bottom: 0.3em;
+    }
 
     ul {
       margin-bottom: 0 !important;
