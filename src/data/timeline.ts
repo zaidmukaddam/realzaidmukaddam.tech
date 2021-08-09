@@ -3,6 +3,13 @@ import TimelineItem from "types/Timeline";
 const timeline: TimelineItem[] = [
   {
     date: "August 2021",
+    title: "recipe-app",
+    text: "Finished Working on my recipe app.",
+    url: "https://github.com/zaidmukaddam/recipe-app",
+    full_date: "August 7, 2021",
+  },
+  {
+    date: "August 2021",
     title: "Portfolio",
     text: "Finished builing My DOPE Portfolio Website",
     url: "https://github.com/zaidmukaddam/realzaidmukaddam.tech",
@@ -42,6 +49,13 @@ const timeline: TimelineItem[] = [
     text: "Started doing some more courses on FreeCodeCamp and got their Information Security Certificate!",
     url: "https://www.freecodecamp.org/certification/zaidmukaddam/information-security-v7",
     full_date: "July 19, 2021",
+  },
+  {
+    date: "July 2021",
+    title: "recipe-app",
+    text: "Started Working on a recipe app.",
+    url: "https://github.com/zaidmukaddam/recipe-app",
+    full_date: "July 13, 2021",
   },
   {
     date: "July 2021",

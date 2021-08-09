@@ -64,6 +64,17 @@ const projects: Project[] = [
     ],
   },
   {
+    title: "Spoonacular | Recipe App",
+    description:
+      "Created this Recipe app with Spoonacular open source food api and firebase to save recipes",
+    buttons: [
+      {
+        url: `${url}/recipe-app`,
+        name: VIEW_CODE,
+      },
+    ],
+  },
+  {
     title: "Atmos",
     description: "Vite-React Weather App developed using openWeather, Mapbox and IP API.",
     buttons: [
@@ -74,6 +85,21 @@ const projects: Project[] = [
       {
         name: OPEN_PROJECT,
         url: "https://atmos.realzaidmukaddam.tech/",
+      },
+    ],
+  },
+  {
+    title: "DevSearch",
+    description:
+      "A search engine for developers for finding Github Repos, youtube tutorials, online courses, and documentation faster.",
+    buttons: [
+      {
+        url: `${url}/developer-search`,
+        name: VIEW_CODE,
+      },
+      {
+        url: "https://devsearchengine.herokuapp.com/",
+        name: OPEN_PROJECT,
       },
     ],
   },
