@@ -112,7 +112,7 @@ const ContactSection = () => {
         <div>
           <a
             className={classes(styles.formSmall, styles.formLink)}
-            href="mailto:zaid75836@gmail.com"
+            href="mailto:zaidlunatic1@gmail.com"
           >
             Send me an email directly
           </a>

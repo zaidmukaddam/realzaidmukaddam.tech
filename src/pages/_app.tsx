@@ -7,6 +7,7 @@ import { Nav, Menu, Footer } from "@components/index";
 import "css/globals.scss";
 import "css/nprogress.css";
 import "css/fonts.scss";
+import Cursor from "@components/Cursor";
 
 function App({ Component, pageProps }: AppProps) {
   React.useEffect(() => {
@@ -32,6 +33,7 @@ function App({ Component, pageProps }: AppProps) {
     <>
       <Nav />
       <Menu />
+      <Cursor />
       <div id="container" className="container">
         <div className="content">
           <Component {...pageProps} />
