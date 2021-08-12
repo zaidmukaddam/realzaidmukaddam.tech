@@ -16,7 +16,7 @@ const ExperiencePage = () => {
       <div className={styles.header}>
         <br />
         <h1>My Experience</h1>
-        <p>The list below shows my most active experiences starting from 2018.</p>
+        <p>The list below shows my most active experiences starting from 2020.</p>
 
         {experience.map((item) => {
           return <ExperienceItem key={item.title} item={item} />;

@@ -20,6 +20,7 @@ const SkillsSection = () => {
                 {skillsItem.items.map((item) => (
                   <li key={item}>
                     <i className={item} />
+                    <p>{item.split(" ")[2]}</p>
                   </li>
                 ))}
               </ul>

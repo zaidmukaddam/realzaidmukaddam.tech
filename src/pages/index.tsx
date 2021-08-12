@@ -48,6 +48,7 @@ const Index = () => {
             rel="noopener noreferrer"
             url={process.env.NEXT_PUBLIC_LINKEDIN_PROFILE_URL}
             target="_blank"
+            onClick={dispatch}
             className="btn btn__icon"
           />
         </div>
