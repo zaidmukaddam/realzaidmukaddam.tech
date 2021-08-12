@@ -10,12 +10,9 @@
 
 .experienceItem {
   padding: 1.2rem 0;
-  background: rgba( 255, 255, 255, 0.10 );
-  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.20 );
-  backdrop-filter: blur( 4px );
-  -webkit-backdrop-filter: blur( 4px );
-  border-radius: 10px;
-  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  border-radius: 17px;
+  background: #282db8;
+  box-shadow: inset 26px 26px 52px #14165a, inset -26px -26px 52px #3c44ff;
   padding: 1em;
   margin: 1em;
 }

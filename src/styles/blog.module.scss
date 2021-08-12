@@ -137,9 +137,12 @@
 .blogItem {
   display: block;
   width: 100%;
-  background: var(--dark);
+  // background: var(--dark);
   padding: 0.8rem 1rem;
-  border-radius: 0.3rem;
+  // border-radius: 0.3rem;
+  border-radius: 17px;
+  background: #191d85;
+  box-shadow: inset -26px -26px 52px #0c0e41, inset 26px 26px 52px #262cc9;
 
   transition: background 200ms;
 

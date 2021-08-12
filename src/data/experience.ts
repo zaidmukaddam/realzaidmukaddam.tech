@@ -13,8 +13,8 @@ const experience: Experience[] = [
     title: "IET MPSTME",
     year: "2021 - Present",
     description: "Creating and maintaining IET website",
-    stack: ["reactjs", "javascript", "glide.js"],
-    href: "#",
+    stack: ["reactjs", "javascript", "Sass"],
+    href: "https://github.com/zaidmukaddam/IET_WEBSITE",
   },
   {
     title: "Open Source",
