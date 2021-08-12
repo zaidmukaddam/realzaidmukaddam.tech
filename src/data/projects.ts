@@ -64,7 +64,7 @@ const projects: Project[] = [
     ],
   },
   {
-    title: "Spoonacular | Recipe App",
+    title: "Spoonacular / Recipe App",
     description:
       "Created this Recipe app with Spoonacular open source food api and firebase to save recipes",
     buttons: [
