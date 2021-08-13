@@ -14,8 +14,9 @@
   font-size: 1rem;
   padding: 0.5rem;
   border: 1.5px solid var(--secondary);
-  background-color: var(--dark);
-  border-radius: 0.5rem;
+  border-radius: 0.3rem;
+  background: #212d87;
+  box-shadow: inset 20px 20px 60px #1c2673, inset -20px -20px 60px #26349b;
   transition: 300ms border;
   resize: vertical;
   max-width: 100%;
