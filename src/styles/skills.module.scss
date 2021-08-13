@@ -39,9 +39,9 @@
     grid-template-columns: repeat(3, minmax(min(0.5rem, 100%), 1fr));
     border: 1px solid #2c5cb5;
 
-    border-radius: 24px;
-    background: #2c5cb5;
-    box-shadow: inset 20px 20px 60px #254e9a, inset -20px -20px 60px #336ad0;
+    border-radius: 19px;
+    background: var(--btn);
+    box-shadow: inset 50px -50px 100px var(--bg), inset -50px 50px 100px var(--secondary);
     // padding: 1rem;
   }
 
