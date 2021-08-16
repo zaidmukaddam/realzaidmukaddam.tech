@@ -56,6 +56,13 @@
     -webkit-backdrop-filter: blur(0);
     border-radius: 0;
     border: none;
+    transition: filter 200ms, transform 200ms;
+
+    &:hover,
+    :focus {
+      transform: translateY(-0.2rem);
+      filter: brightness(150%);
+    }
   }
   p {
     text-align: center !important;
@@ -132,7 +139,7 @@
 
 @media (max-width: 380px) {
   .skillsItem {
-    h1{
+    h1 {
       margin-bottom: 0.2em;
     }
     // padding: 1em 0;
@@ -152,5 +159,4 @@
       font-size: 0.5em;
     }
   }
-
 }

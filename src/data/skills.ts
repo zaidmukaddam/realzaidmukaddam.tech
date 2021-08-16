@@ -54,7 +54,7 @@ export const skills: SkillItem[] = [
       "devicon-docker-plain colored Docker",
       "devicon-firebase-plain colored firebase",
       "devicon-flask-original colored flask",
-      "devicon-electron-original - electron",
+      "devicon-go-plain - Go",
       "devicon-flutter-plain colored flutter",
       "devicon-heroku-plain colored heroku",
       "devicon-kotlin-plain colored kotlin",

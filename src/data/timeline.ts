@@ -3,6 +3,13 @@ import TimelineItem from "types/Timeline";
 const timeline: TimelineItem[] = [
   {
     date: "August 2021",
+    title: "Go Lang",
+    text: "Started leaning Golang .",
+    url: "https://github.com/zaidmukaddam/Go_Study",
+    full_date: "August 13, 2021",
+  },
+  {
+    date: "August 2021",
     title: "recipe-app",
     text: "Finished Working on my recipe app.",
     url: "https://github.com/zaidmukaddam/recipe-app",
