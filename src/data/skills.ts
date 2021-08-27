@@ -14,7 +14,7 @@ export const skills: SkillItem[] = [
       "devicon-sass-original colored Sass",
       "devicon-nextjs-original colored Next",
       "devicon-react-original - React",
-      "devicon-angularjs-plain colored Angular",
+      "devicon-vuejs-plain colored Vue",
       "devicon-jquery-plain-wordmark - jQuery",
     ],
   },

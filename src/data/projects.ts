@@ -133,7 +133,7 @@ const projects: Project[] = [
     ],
   },
   {
-    title: "Markdown Coverter",
+    title: "Markdown Converter",
     description: "You can now easily generate and convert markdowns to html and vice versa 🥰",
     buttons: [
       {
@@ -143,7 +143,7 @@ const projects: Project[] = [
     ],
   },
   {
-    title: "Percerntage Calculator",
+    title: "Percentage Calculator",
     description: "You can now easily calculate percentage from my porfolio itself 🥰",
     buttons: [
       {

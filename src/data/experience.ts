@@ -6,8 +6,8 @@ const experience: Experience[] = [
     year: "2021 - Present",
     description:
       "Creating and maintaining RCBA(Rotaract Club of Bombay Airport) website and Helping in the SocioTech initiative",
-    stack: ["Website", "Wix", "SocialWork"],
-    href: "https://www.rcbombayairport.org/",
+    stack: ["vuejs", "firebase", "SocialWork"],
+    href: "https://rcba-website.vercel.app/",
   },
   {
     title: "IET MPSTME",
