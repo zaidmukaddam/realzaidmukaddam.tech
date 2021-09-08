@@ -71,7 +71,7 @@
 
   code {
     padding: 0.1rem 0.5rem;
-    background: var(--dark);
+    background: var(--secondary);
     border-radius: 0.3rem;
   }
 
@@ -141,8 +141,8 @@
   padding: 0.8rem 1rem;
   // border-radius: 0.3rem;
   border-radius: 17px;
-  background: #191d85;
-  box-shadow: inset -26px -26px 52px #0c0e41, inset 26px 26px 52px #262cc9;
+  background: #cfd2d3;
+  box-shadow: inset 15px 15px 22px #8f9192, inset -15px -15px 22px #ffffff;
 
   transition: background 200ms;
 
@@ -159,10 +159,11 @@
 
 @media (hover: hover) {
   .blogItem:hover {
-    background: var(--dark);
+    // background: var(--secondary);
+    filter: brightness(110%);
   }
 
   .rightContainer a:hover {
-    background: var(--dark);
+    filter: brightness(110%);
   }
 }

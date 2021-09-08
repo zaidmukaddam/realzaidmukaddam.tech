@@ -1,10 +1,23 @@
 import Project from "types/Project";
 const url = "https://github.com/zaidmukaddam";
+const main_url = "https://www.amazon.com/gp/mas/dl/android?p=com.zaid.toodo";
 
 const VIEW_CODE = "View Code";
 const OPEN_PROJECT = "Open Project";
+const OPEN_AMAZON = "Open Amazom Appstore";
 
 const projects: Project[] = [
+  {
+    title: "Toodoolee",
+    description:
+      "Toodoolee is a revolt Against All Tooodo apps, Because they worsen your creativity and productivity.",
+    buttons: [
+      {
+        url: `${main_url}`,
+        name: OPEN_AMAZON,
+      },
+    ],
+  },
   {
     title: "Rubik's cube solver.",
     description:

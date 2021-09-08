@@ -2,11 +2,25 @@ import TimelineItem from "types/Timeline";
 
 const timeline: TimelineItem[] = [
   {
+    date: "September 2021",
+    title: "Toodoolee",
+    text: "Released v1 of Toodoolee on Amazon Appstore 🎉",
+    url: "https://www.amazon.in/gp/mas/dl/android?p=com.zaid.toodo",
+    full_date: "September 2, 2021",
+  },
+  {
     date: "August 2021",
     title: "Go Lang",
     text: "Started leaning Golang .",
     url: "https://github.com/zaidmukaddam/Go_Study",
     full_date: "August 13, 2021",
+  },
+  {
+    date: "August 2021",
+    title: "Toodoolee",
+    text: "Started working on my next best App.",
+    url: "https://toodoolee.github.io/",
+    full_date: "August 9, 2021",
   },
   {
     date: "August 2021",

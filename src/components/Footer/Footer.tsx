@@ -28,7 +28,7 @@ export const Footer = () => {
           Created by{" "}
           <a href="https://github.com/zaidmukaddam/realzaidmukaddam.tech">zaidmukaddam</a> with ❤️
           <br />
-          Colors: Royal Blue Varients Theme. Built with <a href="https://nextjs.org">Next.js</a>
+          Colors: Portrait Gradient Theme. Built with <a href="https://nextjs.org">Next.js</a>
           <br />
           {lastUpdated ? <>Last updated: {lastUpdated}</> : null}
         </p>

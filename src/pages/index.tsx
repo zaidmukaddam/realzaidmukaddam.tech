@@ -4,9 +4,28 @@ import TimelineSection from "@sections/TimelineSection";
 import ProjectSection from "@sections/ProjectsSection";
 import ContactSection from "@sections/ContactSection";
 import SkillsSection from "@sections/SkillsSection";
-import { SocialIcon } from "react-social-icons";
+import { motion } from "framer-motion";
 import { Seo } from "@components/Seo";
 import mainStyles from "css/main.module.scss";
+import { ContactIcon, GitHubIcon, LinkedInIcon } from "@components/icons/about";
+
+const LINKS = [
+  {
+    name: "Contact",
+    href: "#contact",
+    Icon: ContactIcon,
+  },
+  {
+    name: "GitHub",
+    href: process.env.NEXT_PUBLIC_GITHUB_PROFILE_URL,
+    Icon: GitHubIcon,
+  },
+  {
+    name: "LinkedIn",
+    href: process.env.NEXT_PUBLIC_LINKEDIN_PROFILE_URL,
+    Icon: LinkedInIcon,
+  },
+];
 
 const Index = () => {
   const age = calculateAge();
@@ -36,21 +55,26 @@ const Index = () => {
         </p>
 
         <div className={mainStyles.btnContainer}>
-          <SocialIcon url="#contact" className="btn btn__icon" />
-          <SocialIcon
-            rel="noopener noreferrer"
-            url={process.env.NEXT_PUBLIC_INSTAGRAM_PROFILE_URL}
-            target="_blank"
-            onClick={dispatch}
-            className="btn btn__icon"
-          />
-          <SocialIcon
-            rel="noopener noreferrer"
-            url={process.env.NEXT_PUBLIC_LINKEDIN_PROFILE_URL}
-            target="_blank"
-            onClick={dispatch}
-            className="btn btn__icon"
-          />
+          {LINKS.map((link, idx) => (
+            <motion.a
+              key={link.name}
+              initial={{
+                opacity: 0,
+                translateY: -10,
+              }}
+              animate={{
+                opacity: 1,
+                translateY: 0,
+              }}
+              transition={{ duration: 0.3, delay: 0.1 * idx }}
+              onClick={link.name === "Contact" ? dispatch : null}
+              className="btn btn__light btn__icon"
+              href={link.href}
+            >
+              <link.Icon />
+              {link.name}
+            </motion.a>
+          ))}
         </div>
       </main>
 

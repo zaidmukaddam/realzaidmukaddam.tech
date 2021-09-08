@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@400;500;600;700;800&display=swap');
 :root {
-  --bg: linear-gradient(to right, #005c97, #363795);
-  --text-color: #25c1e0;
-  --secondary: #206ead;
-  --dark: #06365f;
-  --btn: #114d9b;
+  --bg: linear-gradient(to right, #8e9eab, #eef2f3);
+  --text-color: #5b6166;
+  --secondary: #bdc2c4;
+  --dark: hsl(207, 6%, 38%);
+  --btn: #727374;
   --content-width: 90%;
 }
 
@@ -81,14 +81,14 @@ a {
 .btn {
   padding: 0.3rem 1.5rem;
   border-radius: 0.2rem;
-  color: white;
+  color: var(--text-color);
   transition: 300ms filter;
   border: none;
   font-size: 1rem;
   cursor: pointer;
 
   &:hover:enabled {
-    filter: brightness(130%);
+    filter: brightness(90%);
   }
 
   &:disabled {
@@ -106,7 +106,7 @@ a {
   background: var(--btn);
 
   &:hover {
-    filter: brightness(110%);
+    filter: brightness(50%);
   }
 }
 
@@ -119,7 +119,7 @@ a {
   svg {
     margin-right: 10px;
     width: 1.2rem;
-    fill: var(--secondary);
+    fill: var(--dark);
   }
 }
 
