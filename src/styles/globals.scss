@@ -98,7 +98,7 @@ a {
 }
 
 .btn__light {
-  background: var(--secondary);
+  background: #dfe1e2;
 }
 
 .btn__lighter {
@@ -106,7 +106,7 @@ a {
   background: var(--btn);
 
   &:hover {
-    filter: brightness(50%);
+    filter: brightness(90%);
   }
 }
 
